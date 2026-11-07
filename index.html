@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Village Mart | Your Local Kirana Store</title>
+    <meta
+      name="description"
+      content="Patna Village Mart is your trusted neighbourhood kirana shop in Patna, Bihar for groceries, daily essentials, fresh produce, and doorstep delivery."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="The Village Mart homepage">
+          <span class="brand-logo">
+            <img src="photo/logo.png" alt="The Village Mart logo" />
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" data-i18n="nav.home">Home</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#products" data-i18n="nav.products">Products</a>
+          <a href="#offers" data-i18n="nav.offers">Offers</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switcher" aria-label="Language switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="hi">हिं</button>
+          </div>
+          <a class="nav-cta" href="https://wa.me/919876543210?text=Hi%20Bihar%20Kirana%20Store%2C%20I%20want%20to%20place%20an%20order." target="_blank" rel="noreferrer" data-i18n="nav.whatsapp">WhatsApp Order</a>
+        </div>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-top">
+          <div class="hero-visual" aria-label="The Village Mart storefront">
+            <div class="slider">
+              <div class="slides">
+                <img class="slide active" src="photo/homepagePhoto.png" alt="The Village Mart grocery shop storefront" />
+                <img class="slide" src="photo/homepagePhoto.png" alt="The Village Mart grocery store interior" />
+                <img class="slide" src="photo/homepagePhoto.png" alt="The Village Mart groceries and essentials" />
+              </div>
+              <div class="slider-dots" aria-label="Slider controls">
+                <button class="dot active" type="button" aria-label="Slide 1"></button>
+                <button class="dot" type="button" aria-label="Slide 2"></button>
+                <button class="dot" type="button" aria-label="Slide 3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container hero-content-wrap">
+          <div class="hero-content">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Serving Families Across the Region</p>
+            <h1 data-i18n="hero.title">Trusted grocery and daily essentials for your family.</h1>
+            <p class="lead" data-i18n="hero.text">
+              The Village Mart (V Mart) brings rice, flour,snacks, oils,
+              soaps, and household items directly to your home at honest village prices.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="primary-btn" data-i18n="hero.primaryBtn">Explore Products</a>
+              <a href="https://wa.me/919876543210?text=Hi%20I%20want%20to%20order%20from%20The%20Village%20Mart%20(V%20Mart)" class="secondary-btn" target="_blank" rel="noreferrer" data-i18n="hero.secondaryBtn">WhatsApp Us</a>
+            </div>
+
+            <ul class="hero-points">
+              <li data-i18n="hero.point1">Fresh checked goods</li>
+              <li data-i18n="hero.point2">Quality checked goods</li>
+              <li data-i18n="hero.point3">Affordable local pricing</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-bar">
+        <div class="container stats-grid">
+          <div>
+            <strong data-i18n="stats.customersStrong">Many</strong>
+            <span data-i18n="stats.customers">Happy Customers</span>
+          </div>
+          <div>
+            <strong data-i18n="stats.productsStrong">All Household</strong>
+            <span data-i18n="stats.products">Daily Products</span>
+          </div>
+          <div>
+            <strong data-i18n="stats.preorderStrong">Pre-order on WhatsApp</strong>
+            <span data-i18n="stats.preorder">Comming Soon</span>
+          </div>
+          <div>
+            <strong data-i18n="stats.serviceStrong">7 Days</strong>
+            <span data-i18n="stats.service">Open for Service</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container split-section">
+          <div class="section-copy">
+            <p class="eyebrow accent" data-i18n="about.eyebrow">About our store</p>
+            <h2 data-i18n="about.title">Your neighbourhood kirana shop built on trust.</h2>
+            <p data-i18n="about.text1">
+              We are a village-friendly grocery store serving households in Dhokhara and
+              nearby areas with essential items, groceries, and everyday convenience.
+              Our mission is simple: provide honest pricing, quality products, and warm
+              service to every family we serve.
+            </p>
+            <p data-i18n="about.text2">
+              Whether you need grocery staples, household supplies, or seasonal goods,
+              we make shopping quick, affordable, and reliable.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3 data-i18n="about.cardTitle">Why families choose us</h3>
+            <ul>
+              <li data-i18n="about.point1">Fresh and hygienic products</li>
+              <li data-i18n="about.point2">Affordable daily pricing</li>
+              <li data-i18n="about.point3">Personalized local service</li>
+              <li data-i18n="about.point4">Pre-order via WhatsApp</li>
+              <li data-i18n="about.point5">Trusted local support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg" id="products">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent" data-i18n="products.eyebrow">Popular categories</p>
+            <h2 data-i18n="products.title">Everything you need for everyday living</h2>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="icon">🥬</div>
+              <h3 data-i18n="product1.title">Fresh Vegetables</h3>
+              <p data-i18n="product1.text">Onions, potatoes, spices, and daily produce.</p>
+            </article>
+
+            <article class="product-card">
+              <div class="icon">🌾</div>
+              <h3 data-i18n="product2.title">Staples</h3>
+              <p data-i18n="product2.text">Rice, wheat flour, pulses, oil, sugar, and kitchen essentials.</p>
+            </article>
+
+            <article class="product-card">
+              <div class="icon">🫙</div>
+              <h3 data-i18n="product3.title">Household Needs</h3>
+              <p data-i18n="product3.text">Toiletries, soaps, detergents, cleaning products, and more.</p>
+            </article>
+
+            <article class="product-card">
+              <div class="icon">🥤</div>
+              <h3 data-i18n="product4.title">Snacks & Drinks</h3>
+              <p data-i18n="product4.text">biscuits, chips, soft drinks, and family favorite snacks.</p>
+            </article>
+
+            <article class="product-card">
+              <div class="icon">🍼</div>
+              <h3 data-i18n="product5.title">Kitchen Supplies</h3>
+              <p data-i18n="product5.text">Packaged goods, spices, condiments, and cooking basics.</p>
+            </article>
+
+            <article class="product-card">
+              <div class="icon">🧺</div>
+              <h3 data-i18n="product6.title">Daily Essentials</h3>
+              <p data-i18n="product6.text">Toothpaste, shampoo, matchboxes, incense, and small daily items.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="offers">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent" data-i18n="offers.eyebrow">Special deals</p>
+            <h2 data-i18n="offers.title">Great value for your family budget</h2>
+          </div>
+
+          <div class="offer-banner">
+            <div>
+              <p class="mini-label" data-i18n="offers.badge">This week only</p>
+              <h3 data-i18n="offers.text">Pre-order on WhatsApp for your weekly grocery list</h3>
+            </div>
+            <a href="#contact" class="primary-btn" data-i18n="offers.button">Book Order</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent" data-i18n="testimonials.eyebrow">Customer words</p>
+            <h2 data-i18n="testimonials.title">Trusted by local families</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote>
+              <span data-i18n="quote1">“Very honest pricing and quick delivery. We order rice, flour, and groceries every week from here.”</span>
+              <footer data-i18n="quote1.author">— Rani Devi, Patna</footer>
+            </blockquote>
+
+            <blockquote>
+              <span data-i18n="quote2">“Clean products and friendly service. It feels like a trustworthy local shop.”</span>
+              <footer data-i18n="quote2.author">— Sunil Kumar, nearby village</footer>
+            </blockquote>
+
+            <blockquote>
+              <span data-i18n="quote3">“The best kirana shop for daily essentials in our area. Highly recommended.”</span>
+              <footer data-i18n="quote3.author">— Neha Singh, Patna</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <p class="eyebrow accent" data-i18n="contact.eyebrow">Contact us</p>
+            <h2 data-i18n="contact.title">Place your order today</h2>
+            <div class="contact-list">
+              <p><strong data-i18n="contact.addressLabel">Address:</strong> <span data-i18n="contact.address">Dhokhara, Near High School Dhokhara</span></p>
+              <p><strong data-i18n="contact.phoneLabel">Phone:</strong> <a href="tel:+91987">+91 98XXXXXXXX</a></p>
+              <p><strong data-i18n="contact.whatsappLabel">WhatsApp:</strong> <a href="https://wa.me/91980" target="_blank" rel="noreferrer" data-i18n="contact.whatsappText">Chat on WhatsApp</a></p>
+              <p><strong data-i18n="contact.hoursLabel">Hours:</strong> <span data-i18n="contact.hours">5:00 AM – 9:00 PM, 7 days a week</span></p>
+            </div>
+          </div>
+
+          <form class="order-form" id="orderForm">
+            <label>
+              <span data-i18n="form.nameLabel">Full Name</span>
+              <input type="text" name="name" data-i18n-placeholder="form.namePlaceholder" placeholder="Your name" required />
+            </label>
+            <label>
+              <span data-i18n="form.phoneLabel">Phone Number</span>
+              <input type="tel" name="phone" data-i18n-placeholder="form.phonePlaceholder" placeholder="Your phone" required />
+            </label>
+            <label>
+              <span data-i18n="form.itemLabel">Item Needed</span>
+              <input type="text" name="item" data-i18n-placeholder="form.itemPlaceholder" placeholder="Rice, milk, soap, etc." required />
+            </label>
+            <label>
+              <span data-i18n="form.addressLabel">Delivery Address</span>
+              <textarea name="address" rows="3" data-i18n-placeholder="form.addressPlaceholder" placeholder="Enter your address" required></textarea>
+            </label>
+            <button type="submit" class="primary-btn submit-btn" data-i18n="form.submit">Send Order Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> The Village Mart (V Mart). All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home" data-i18n="footer.home">Home</a>
+          <a href="#products" data-i18n="footer.products">Products</a>
+          <a href="#contact" data-i18n="footer.contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
